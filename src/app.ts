@@ -15,6 +15,8 @@ server.route({
     }
 });
 
+//dynamo db endpoint here
+
 server.start((err: any) => {
     if (err) { throw err; }
     console.log('Server running at:', port);
